@@ -1,0 +1,51 @@
+<%- include('../partials/header'); -%>
+
+
+<div class="container-fluid hero px-0">
+        <header class="jumbotron" style="margin-top: 2rem">
+            <div class="container">
+                <h1>Welcome to HappyCamper!</h1>
+                <p>
+                    View campgrounds from all over the world
+                    <br>
+                    <br>
+                    <a href="/campgrounds/new" class="btn">Add a New one!</a>
+        
+                </p
+            </div>
+            
+           </header>   
+        
+
+       
+        
+        </div>
+<div class="container">
+
+    <div class="row text-center">
+
+        <% campgrounds.forEach(function(campground){ %>
+            <div class="col-md-3 col-sm-6">
+               
+                <div class="card" style="margin-bottom: 15px ;">
+                    <img class="card-img-top lamba" src="<%= campground.image %>" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"><%= campground.name %></h5>
+                      <a href="campgrounds/<%= campground._id %>" class="btn">More Info</a>
+                    </div>
+                  </div>
+                    
+            </div>
+            <% }) %>
+
+            
+    </div>
+
+</div>
+
+        
+       
+
+
+
+<%- include('../partials/footer'); -%>

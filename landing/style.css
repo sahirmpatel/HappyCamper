@@ -1,0 +1,16 @@
+body,html{
+    background: url(http://getwallpapers.com/wallpaper/full/f/6/0/589564.jpg) no-repeat ; 
+  
+  background-position: 70% ; 
+  background-size: cover  ;
+  background-repeat: no-repeat;
+ 
+  background-attachment: fixed;
+  display: flex;
+ 
+}
+
+.column {
+    float: right;
+    width: 50%;
+  }
