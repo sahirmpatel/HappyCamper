@@ -1,5 +1,5 @@
 # HappyCamper
-# YelpCamp
+
 HappyCamper is a project that was completed as a part of [Colt Steele's Web Development Bootcamp course (Udemy)](https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview).
 
 ## Description
